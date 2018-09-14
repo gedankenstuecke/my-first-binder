@@ -39,6 +39,18 @@ Source: CRAN
 Version: 1.3.4
 Hash: ff2840dd9b0d563fc80377a5a45510cd
 
+Package: curl
+Source: CRAN
+Version: 3.2
+Hash: e3318ec2d42d15a38485bab047d114ba
+
+Package: devtools
+Source: CRAN
+Version: 1.13.6
+Hash: 9a137acbaeb61f440b1c1dedc1fbcaec
+Requires: digest, git2r, httr, jsonlite, memoise, rstudioapi, whisker,
+    withr
+
 Package: digest
 Source: CRAN
 Version: 0.6.16
@@ -62,6 +74,11 @@ Version: 0.5.0
 Hash: b94d7c28e665d16d28c1d26fe48358a1
 Requires: ggplot2, plyr, scales, withr
 
+Package: git2r
+Source: CRAN
+Version: 0.23.0
+Hash: f7190a7a4b5c5f0983b4b6ee29ed7bc3
+
 Package: glue
 Source: CRAN
 Version: 1.3.0
@@ -71,6 +88,17 @@ Package: gtable
 Source: CRAN
 Version: 0.2.0
 Hash: cd78381a9d3fea966ac39bd0daaf5554
+
+Package: httr
+Source: CRAN
+Version: 1.3.1
+Hash: 2d32e01e53d532c812052e27a1021441
+Requires: R6, curl, jsonlite, mime, openssl
+
+Package: jsonlite
+Source: CRAN
+Version: 1.5
+Hash: 9c51936d8dd00b2f1d4fe9d10499694c
 
 Package: labeling
 Source: CRAN
@@ -87,11 +115,27 @@ Source: CRAN
 Version: 1.5
 Hash: bdc4d48c3135e8f3b399536ddf160df4
 
+Package: memoise
+Source: CRAN
+Version: 1.1.0
+Hash: 410fcd334bc626db100237cc1370f2e9
+Requires: digest
+
+Package: mime
+Source: CRAN
+Version: 0.5
+Hash: 463550cf44fb6f0a2359368f42eebe62
+
 Package: munsell
 Source: CRAN
 Version: 0.5.0
 Hash: 247d1c1d72f3072563912ef860758624
 Requires: colorspace
+
+Package: openssl
+Source: CRAN
+Version: 1.0.2
+Hash: 12a42cbd5aecdb887782247856ccbafd
 
 Package: packrat
 Source: CRAN
@@ -110,6 +154,11 @@ Version: 1.8.4
 Hash: 05d65ee369a267f0d0c56604000c69b5
 Requires: Rcpp
 
+Package: proto
+Source: CRAN
+Version: 1.0.0
+Hash: f9a2528572320c1e0bc8783dfd6e0fae
+
 Package: reshape2
 Source: CRAN
 Version: 1.4.3
@@ -120,6 +169,11 @@ Package: rlang
 Source: CRAN
 Version: 0.2.2
 Hash: 49b735b7b1d14f561d21cce12c6703df
+
+Package: rstudioapi
+Source: CRAN
+Version: 0.7
+Hash: e2ebaff8160aff3e6b32e6e78a693c2d
 
 Package: scales
 Source: CRAN
@@ -153,6 +207,11 @@ Package: viridisLite
 Source: CRAN
 Version: 0.3.0
 Hash: 78bb072c4f9e729a283d4c40ec93f9c6
+
+Package: whisker
+Source: CRAN
+Version: 0.3-2
+Hash: 803d662762e532705c2c066a82d066e7
 
 Package: withr
 Source: CRAN
